@@ -27,7 +27,7 @@ Expose the hidden message and capture the final flag.
 
 
 ## 💡 Hint
-Morse → Hex → XOR → ROT13 → MD5 → Base64 → Reverse
+Morse → Hex → XOR(2FA code) → ROT13 → MD5 → Base64 → Reverse
 
 
 
@@ -38,3 +38,6 @@ The server lies.
 Some outputs are meant to confuse you.
 
 Only the correct path reveals the truth.
+
+## Flag Format :
+HW{........}
